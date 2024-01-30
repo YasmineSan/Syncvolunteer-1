@@ -30,4 +30,31 @@ li {
 
 footer {
   background-color: #114e46;
+  color: white;
+}
+hr {
+  border: solid;
+  border-top: 5px solid white;
+}
+/* */
+.term {
+  color: white;
+}
+a {
+  /*  */
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+.link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  /*background*/
+  transition: width 0.3s;
+}
+.link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }

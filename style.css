@@ -3,13 +3,15 @@ body {
 }
 ul {
   list-style-type: none;
+  display: flex;
+  float: right;
+  background-color: #35605a;
 }
 li {
   margin-top: 15px;
   margin-left: 40px;
 }
 .barn {
-  background-color: #35605a;
   font-size: 18px;
   color: white;
   font-weight: 500;
@@ -27,5 +29,5 @@ li {
 }
 
 footer {
-  background-color: #35605a;
+  background-color: #114e46;
 }

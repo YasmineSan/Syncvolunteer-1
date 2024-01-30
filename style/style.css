@@ -46,6 +46,7 @@ a {
   color: white;
   font-family: sans-serif;
 }
+
 .link::after {
   content: "";
   display: block;

@@ -2,4 +2,6 @@
   margin: 5rem auto;
   width: min(90%, 75rem);
   display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
 }
